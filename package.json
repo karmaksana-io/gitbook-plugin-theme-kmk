@@ -1,5 +1,4 @@
 {
-
   "description": "Gitbook plugin",
   "engines": {
     "gitbook": ">=3.0.0"
