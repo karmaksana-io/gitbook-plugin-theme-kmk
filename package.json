@@ -1,0 +1,16 @@
+{
+
+  "description": "Gitbook plugin",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "theme"
+  ],
+  "main": "index.js",
+  "name": "gitbook-plugin-theme-kmk",
+  "optionalDependencies": {},
+  "version": "1.0.0"
+}
