@@ -1,12 +1,20 @@
 {% extends template.self %} {% block body %}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <div class="book">
   <div class="header-inner">
     <!-- LOGO -->
     <div class="logo"></div>
     <span class="title"></span>
     <span>{% include "website/header.html" %}</span>
+    <span class="link-social">
+      <div class="book-header">
+        <a class="btn pull-right" aria-label="" target="_blank" href="https://www.instagram.com/karmaksana"><i class="fab fa-instagram"></i></a>
+        <a class="btn pull-right" aria-label="" target="_blank" href="https://www.facebook.com/karmaksana"><i class="fab fa-facebook"></i></a>
+        <a class="btn pull-right" aria-label="" target="_blank" href="https://twitter.com/KarmaKsana"><i class="fab fa-twitter"></i></a>
+        <a class="btn pull-right" aria-label="" target="_blank" href="https://discord.gg/karma-ksana"><i class="fab fa-discord"></i></a>
+      </div>
+    </span>
     
-
     <!-- Search -->
     {% block search_input %}{% endblock %}
 

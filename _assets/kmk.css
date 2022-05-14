@@ -444,3 +444,6 @@ body {
 .markdown-section h6 {
   color: var(--H6Color);
 }
+.book-header .btn:hover {
+  color: #4FE0B6;
+}
